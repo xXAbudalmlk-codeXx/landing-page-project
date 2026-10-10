@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tjrbh coffee</title>
+  <link rel="stylesheet" href="css.css"/>
+</head>
+<body>
+
+<header>
+  <nav>
+    <h2>TJRBH Coffee</h2>
+
+    <button class="menu-toggle" aria-label="Open navigation menu">
+      ☰
+    </button>
+
+    <div class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <h1>Welcome to our coffee shop Tjrbh coffee</h1>
+  <p>our coffee place is for every new kind of coffee there is</p>
+  <a href="#services" class="cta-button">
+    Explore Our Coffee
+  </a>
+
+</section>
+
+
+
+<section class="cards" id="services">
+  <div class="card">
+    <button>order now</button>
+    <h3>espresso</h3>
+    <p>fresh original coffee</p>
+    <b>8 SAR</b>
+  </div>
+
+<div class="card">
+  <button>order now</button>
+  <h3>latte</h3>
+  <p>good and rich coffee</p>
+  <b>10 SAR</b>
+</div>
+
+  <div class="card">
+    <button>order now</button>
+    <h3>mango ice tea</h3>
+    <p>enjoy the mango with the tea</p>
+    <b>12 SAR</b>
+  </div>
+
+</section>
+
+<section class="testimonials" id="about">
+  <h2>what our customers said and tried</h2>
+
+  <div class="testimonial">
+    <p>greet coffee and friendly service</p>
+    <h3>ahmed</h3>
+  </div>
+  <div class="testimonial">
+    <p>amazing menu and services</p>
+    <h3>khaled</h3>
+  </div>
+</section>
+
+
+
+<footer id="contact">
+  <h2>TJRBH Coffee</h2>
+  <p>Email: ana3bdalmlk@gmail.com</p>
+  <p>Phone: 0573844525</p>
+
+  <div class="social-links">
+    <a href="https://instagram.com/">Instagram</a>
+    <a href="https://x.com/">X</a>
+  </div>
+
+  <p>© 2026 TJRBH Coffee</p>
+</footer>
+
+
+
+
+<script>
+  const menuToggle = document.querySelector(".menu-toggle");
+  const navLinks = document.querySelector(".nav-links");
+
+  menuToggle.addEventListener("click", function () {
+    navLinks.classList.toggle("active");
+  });
+</script>
+
+
+
+
+
+
+</body>
+</html>
